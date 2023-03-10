@@ -3,7 +3,7 @@
 <p>
 Gary's Adventure is a 2D interactive puzzle game where Gary the snail is lost underwater. The main objective of the game is to help Gary get to home to Spongebob in Bikini Bottom. 
 
-There are 6 grids in a 2x3 formation in every scene which can be moved around to help Gary get from the starting grid to the grid where the whirlpool is at. Each whirlpool leads to the next scene/level. Gary moves in one fixed direction until he hits an obstacle, where he will either lose a life (alien plant) or start moving in the opposite direction (rock). When Gary walks to a hole in the ground, he will either fall to the grid right below, or in the absence of a grid below, lose a life.
+There are 6 frames in a 2x3 formation in every scene which can be moved around to help Gary get from the starting frame to the frame where the bubble is at. Each bubble leads to the next scene/level. Gary moves in one fixed direction until he hits an obstacle, where he will either lose a life (alien plant) or start moving in the opposite direction (rock). When Gary walks to a hole in the ground, he will either fall to the frame right below, or in the absence of a frame below, lose a life.
 
 The game intends to introduce functionalities slowly to allow users to get the hang of it. There will be approximately 5-10 levels in this game.
 </p>
@@ -13,27 +13,29 @@ The game intends to introduce functionalities slowly to allow users to get the h
 # **Functionalities:**
 
 In Gary's Adventure, user will be able to:
-1. Swap the position of two grids by clicking consecutively on both grids. 
-2. Locked grids cannot be moved to any other position.
+1. Swap the position of two frames by clicking consecutively on both frames. (When swapping Frames, Gary stops moving)
+2. Locked frames cannot be moved to any other position.
 3. Obstacles that cause the character to lose their lives will result in the level restarting.
-4. A hole in the ground that will either make Gary fall to the grid right below, or in the absence of a grid below, lose a life.
+4. A hole in the ground that will either make Gary fall to the frame right below, or in the absence of a frame below, lose a life.
+5. Upon touching bubble, Gary floats away in it and next level starts
+6. Upon reaching SPongebob's house (pineapple) in final level, Spongebob appears
 5. A rule page will also be provided to the users
 
 <br />
 
 # **Wireframe:**
 
-![Gary's Adventure Wireframe](./assets/readme/wireframe.png)
+![Gary's Adventure Wireframe](./assets/readme/wireframe.jpeg)
 
-> - Nav links include links to this project's Github repo and my LinkedIn.
-> - On the left, there will be a instruction with a little grond and goal.
-> - There will be also a explanation under instruction for each obstacles.
+> - Nav links include links to this project's Github repo and my LinkedIn
+> - In the Controls, there will be Game Sound on/off, Music on/off and Restart Level
+> - There will be a Countdown Timer and a Life Bar
 
 ## **Instruction and Explanation will be the follow:** 
-### Help Gary get back home! Swap the position of grids by clicking consecutively on two grids, while making use of, or avoiding some obstacles: 
+### Help Gary get back home! Swap the position of frames by clicking consecutively on two frames, while making use of, or avoiding some obstacles: 
 > - Rock: Changes the direction that Gary is moving in.
 > - Jellyfish: Zaps Gary (lose a life)
-> - Hole in the Ground: Gary falls through the ground (either drops to the grid below; or loses a life if there are no grids below the hole) 
+> - Hole in the Ground: Gary falls through the ground (either drops to the frame below; or loses a life if there are no frames below the hole) 
 
 <br />
 
